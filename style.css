@@ -88,7 +88,14 @@ p {
 
 @media screen and (max-width: 480px) {
     #ipsum {
-
         display: none;
     }
 }
+
+/* Dark mode*/
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #222;
+      color: #fff;
+    }
+  }
