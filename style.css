@@ -21,7 +21,7 @@ img {
 
 .card-container {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     flex-wrap: wrap;
 }
 
@@ -40,3 +40,51 @@ h3 {
 p {
     font-size: 1rem;
 }
+
+@media screen and (min-width: 700px) {
+    h1 {
+        font-size: 3.375rem;
+    }
+    
+    h2 {
+        font-size: 2.25rem;
+    }
+    
+    h3 {
+        font-size: 1.95rem;
+    }
+    
+    p {
+        font-size: 1.5rem;
+    }
+
+    body {
+        background-color: #6666ff
+    }
+
+  }
+
+
+
+  @media screen and (min-width: 1000px) {
+    h1 {
+        font-size: 4.5rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    }
+    
+    h3 {
+        font-size: 2.6rem;
+    }
+    
+    p {
+        font-size: 2rem;
+    }
+
+    body {
+        background-color: #538cc6
+    }
+
+  }
